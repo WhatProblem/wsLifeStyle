@@ -1,0 +1,5 @@
+<!--pages/member/member.wxml-->
+<!-- <text>pages/member/member.wxml</text> -->
+<view class="container">
+  <view><text>member部分</text></view>
+</view>

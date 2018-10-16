@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<view class="container">
+  <view>
+    <text>home部分</text>
+  </view>
+  <button bindtap="clickModel">测试dialog</button>
+  <!--index.wxml-->
+  <view class="container">
+    <dialog id='dialog' title='我是标题' content='恭喜你，学会了小程序组件' cancelText='知道了' confirm='谢谢你' bind:cancelEvent="_cancelEvent" bind:confirmEvent="_confirmEvent">
+    </dialog>
+
+    <button type="primary" bindtap="showDialog"> ClickMe! </button>
+  </view>
+</view>

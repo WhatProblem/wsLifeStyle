@@ -1,0 +1,5 @@
+<!--pages/sort/sort.wxml-->
+<!-- <text>pages/sort/sort.wxml</text> -->
+<view class="container">
+  <view><text>sort部分</text></view>
+</view>
