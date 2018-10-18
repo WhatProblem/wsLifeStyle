@@ -1,0 +1,7 @@
+<!--pages/components/loading/loading.wxml-->
+<!-- <text>pages/components/loading/loading.wxml</text> -->
+<view class="loading">
+  <view class="loads">
+    <image class="loadIcon" src="/assets/image/loading.png"></image>
+  </view>
+</view>

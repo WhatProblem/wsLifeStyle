@@ -1,5 +1,16 @@
 {
   "usingComponents": {
-    "dialog": "/pages/components/dialog/dialog"
-  }
+    "dialog": "/pages/components/dialog/dialog",
+    "banner": "/pages/components/banner/banner",
+    "search": "/pages/components/search/search",
+    "navbar": "/pages/components/navbar/navbar",
+    "goodsList": "/pages/components/goodsList/goodsList",
+    "loading": "/pages/components/loading/loading"
+  },
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "home首页",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
 }

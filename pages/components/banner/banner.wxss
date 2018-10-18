@@ -1,0 +1,10 @@
+/* pages/components/banner/banner.wxss */
+
+.homePoster {
+  width: 100%;
+  height: 600rpx;
+}
+
+.itemImg {
+  height: 600rpx;
+}

@@ -1,15 +1,23 @@
 <!--pages/home/home.wxml-->
 <!-- <text>pages/home/home.wxml</text> -->
 <view class="container">
-  <view>
-    <text>home部分</text>
-  </view>
-  <button bindtap="clickModel">测试dialog</button>
+  <search class="searchModal"></search>
+  <banner class="homeBanner"></banner>
+  <navbar class="navbar"></navbar>
+  <text class="dividers">本周尖货推荐</text>
+  <goodsList class="goodsList"></goodsList>
+  <loading class="loading"></loading>
   <!--index.wxml-->
-  <view class="container">
-    <dialog id='dialog' title='我是标题' content='恭喜你，学会了小程序组件' cancelText='知道了' confirm='谢谢你' bind:cancelEvent="_cancelEvent" bind:confirmEvent="_confirmEvent">
-    </dialog>
-
-    <button type="primary" bindtap="showDialog"> ClickMe! </button>
-  </view>
+  <!-- <view class="container">
+<dialog id='dialog' 
+title='{{dialogTitle}}' 
+content='{{dialogContent}}' 
+cancelText='{{cancelBtn}}' 
+confirm='{{confirmBtn}}' 
+bind:cancelEvent="_cancelEvent" 
+bind:confirmEvent="_confirmEvent">
+</dialog>
+<button type="primary" bindtap="showDialog"> ClickMe! </button>
+</view> -->
+  <button bindtap="jumpTo">跳转到homeDetail</button>
 </view>

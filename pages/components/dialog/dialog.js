@@ -4,9 +4,9 @@ Component({
   },
   properties: {
     // 弹窗标题
-    title: {            // 属性名
-      type: String,     // 类型（必填），目前接受的类型包括：String, Number, Boolean, Object, Array, null（表示任意类型）
-      value: '标题'     // 属性初始值（可选），如果未指定则会根据类型选择一个
+    title: { // 属性名
+      type: String, // 类型（必填），目前接受的类型包括：String, Number, Boolean, Object, Array, null（表示任意类型）
+      value: '标题' // 属性初始值（可选），如果未指定则会根据类型选择一个
     },
     // 弹窗内容
     content: {
@@ -25,44 +25,46 @@ Component({
     }
   },
   /**
-   * 私有数据,组件的初始数据
-   * 可用于模版渲染
-   */
+  * 私有数据,组件的初始数据
+  * 可用于模版渲染
+  */
   data: {
     // 弹窗显示控制
     isShow: false
   },
 
   /**
-   * 组件的方法列表
-   * 更新属性和数据的方法与更新页面数据的方法类似
-   */
+  * 组件的方法列表
+  * 更新属性和数据的方法与更新页面数据的方法类似
+  */
   methods: {
     /**
-     * 其他方法
-     */
+    * 其他方法
+    */
 
     /**
-     * 隐藏弹框
-     */
+    * 隐藏弹框
+    */
     hideDialog() {
       this.setData({
         isShow: !this.data.isShow
-      })
+      });
+      console.log(this.data.isShow);
     },
 
     /**
-     * 展示弹框
-     */
+    * 展示弹框
+    */
     showDialog() {
       this.setData({
         isShow: !this.data.isShow
-      })
+      });
+      console.log(this.data.isShow);
     },
     /*
-     * 内部私有方法建议以下划线开头
-     * triggerEvent 用于触发事件
-     */
+    * 内部私有方法建议以下划线开头
+    * triggerEvent 用于触发事件
+    */
     _cancelEvent() {
       //触发取消回调
       this.triggerEvent("cancelEvent")

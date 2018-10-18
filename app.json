@@ -1,16 +1,17 @@
 {
   "pages": [
-    "pages/home/home",
-    "pages/sort/sort",
-    "pages/cart/cart",
-    "pages/member/member"
+    "/pages/home/home",
+    "/pages/sort/sort",
+    "/pages/cart/cart",
+    "/pages/member/member",
+    "/pages/homeDetail/homeDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom",
+    "navigationStyle": "default",
     "backgroundColor": "#eeeeee",
     "backgroundColorTop": "#999",
     "backgroundColorBottom": "#000",
@@ -25,28 +26,28 @@
     "position": "bottom",
     "list": [
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "/pages/home/home",
         "text": "首页",
-        "iconPath": "assets/image/tabBar/home.png",
-        "selectedIconPath": "assets/image/tabBar/home_r.png"
+        "iconPath": "/assets/image/tabBar/home.png",
+        "selectedIconPath": "/assets/image/tabBar/home_r.png"
       },
       {
-        "pagePath": "pages/sort/sort",
+        "pagePath": "/pages/sort/sort",
         "text": "分类",
-        "iconPath": "assets/image/tabBar/sort.png",
-        "selectedIconPath": "assets/image/tabBar/sort_r.png"
+        "iconPath": "/assets/image/tabBar/sort.png",
+        "selectedIconPath": "/assets/image/tabBar/sort_r.png"
       },
       {
-        "pagePath": "pages/cart/cart",
+        "pagePath": "/pages/cart/cart",
         "text": "购物车",
-        "iconPath": "assets/image/tabBar/cart.png",
-        "selectedIconPath": "assets/image/tabBar/cart_r.png"
+        "iconPath": "/assets/image/tabBar/cart.png",
+        "selectedIconPath": "/assets/image/tabBar/cart_r.png"
       },
       {
-        "pagePath": "pages/member/member",
+        "pagePath": "/pages/member/member",
         "text": "个人中心",
-        "iconPath": "assets/image/tabBar/member.png",
-        "selectedIconPath": "assets/image/tabBar/member_r.png"
+        "iconPath": "/assets/image/tabBar/member.png",
+        "selectedIconPath": "/assets/image/tabBar/member_r.png"
       }
     ]
   },

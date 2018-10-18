@@ -1,1 +1,57 @@
 /* pages/home/home.wxss */
+
+.homeBanner {
+  width: 100%;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.searchModal {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.dividers {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #000;
+  width: 100%;
+  height: 48rpx;
+  text-align: center;
+  line-height: 48rpx;
+  position: relative;
+  background: #fff;
+}
+
+.dividers::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30%;
+  height: 24rpx;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.dividers::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30%;
+  height: 24rpx;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.goodsList {
+  width: 100%;
+}

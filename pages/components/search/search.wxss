@@ -1,0 +1,63 @@
+/* pages/components/search/search.wxss */
+
+.section {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  background-color: #08af8e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+.logoSec {
+  width: 30%;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logoSec .logoImg {
+  width: 80%;
+  height: 50rpx;
+}
+
+.inputSec {
+  position: relative;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.searchIcon {
+  width: 50rpx;
+  height: 50rpx;
+  font-size: 32rpx;
+  color: red;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 10%;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.inputKey {
+  width: 80%;
+  margin-right: 5%;
+  font-size: 32rpx;
+  color: #333;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding-left: 60rpx;
+  border: 1px solid #eee;
+  border-radius: 10rpx;
+  background: #fff;
+}

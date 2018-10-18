@@ -1,0 +1,14 @@
+<!--pages/components/navbar/navbar.wxml-->
+<!-- <text>pages/components/navbar/navbar.wxml</text> -->
+<view class="navbar">
+  <block wx:for="{{navItems}}" wx:key="index">
+    <view class="navItem">
+      <navigator url="{{item.url}}" hover-class="navigator-hover">
+        <view class="item">
+          <image src="{{item.src}}" class="navImg"></image>
+        </view>
+        <view class="navTitle">{{item.title}}</view>
+      </navigator>
+    </view>
+  </block>
+</view>
