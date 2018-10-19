@@ -19,6 +19,7 @@
 
 .logo {
   position: absolute;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 120rpx;
@@ -39,6 +40,31 @@
 .goodSrc {
   width: 100%;
   height: 100%;
+  opacity: 0;
+  animation: animateImg 5s ease 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation: animateImg 5s ease 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animateImg {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes -webkit-animateImg {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .introduce {

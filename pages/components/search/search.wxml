@@ -7,7 +7,7 @@
   <view class="inputSec">
     <!-- <text class="searchIcon iconfont icon-sousuo" style="font-size: 40px; color: red;"></text> -->
     <icon class="searchIcon" type="search" />
-    <input class="inputKey" bindconfirm="searchFor" value="{{inputValue}}" type="text" confirm-type="search" placeholder="搜索商品" focus/>
+    <input class="inputKey" bindconfirm="searchFor" value="{{inputValue}}" type="text" confirm-type="search" placeholder="搜索商品" />
   </view>
 </view>
 <!-- <view class="section">

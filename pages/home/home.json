@@ -5,12 +5,13 @@
     "search": "/pages/components/search/search",
     "navbar": "/pages/components/navbar/navbar",
     "goodsList": "/pages/components/goodsList/goodsList",
-    "loading": "/pages/components/loading/loading"
+    "loading": "/pages/components/loading/loading",
+    "tipTitle": "/pages/components/tipTitle/tipTitle"
   },
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "home首页",
   "backgroundColor": "#eeeeee",
   "backgroundTextStyle": "light",
-  "enablePullDownRefresh": false
+  "enablePullDownRefresh": true
 }

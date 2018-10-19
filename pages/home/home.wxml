@@ -2,11 +2,14 @@
 <!-- <text>pages/home/home.wxml</text> -->
 <view class="container">
   <search class="searchModal"></search>
-  <banner class="homeBanner"></banner>
-  <navbar class="navbar"></navbar>
-  <text class="dividers">本周尖货推荐</text>
-  <goodsList class="goodsList"></goodsList>
-  <loading class="loading"></loading>
+  <scroll-view style="width: 100%;height:{{scrollHeight}}px" scroll-y bindscrolltolower="loadMore">
+    <banner class="homeBanner"></banner>
+    <navbar class="navbar"></navbar>
+    <view class="dividers">本周尖货推荐</view>
+    <goodsList class="goodsList" goodList="{{goodList}}"></goodsList>
+    <tipTitle style="width:100%" hidden="{{showLoadMore}}" title="{{showTips}}"></tipTitle>
+  </scroll-view>
+  <loading class="loading" wx:if="{{showLoading}}"></loading>
   <!--index.wxml-->
   <!-- <view class="container">
 <dialog id='dialog' 
@@ -19,5 +22,4 @@ bind:confirmEvent="_confirmEvent">
 </dialog>
 <button type="primary" bindtap="showDialog"> ClickMe! </button>
 </view> -->
-  <button bindtap="jumpTo">跳转到homeDetail</button>
 </view>

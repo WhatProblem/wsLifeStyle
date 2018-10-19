@@ -14,10 +14,6 @@
   height: 100%;
 }
 
-.navigator-hover {
-    color: blue;
-}
-
 .item {
   width: 120rpx;
   height: 120rpx;

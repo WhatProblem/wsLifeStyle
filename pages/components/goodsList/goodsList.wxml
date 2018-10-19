@@ -2,8 +2,8 @@
 <!-- <text>pages/components/goodsList/goodsList.wxml</text> -->
 <view class="goodsList">
   <block wx:for="{{goodList}}" wx:key="index">
-    <view class="content">
-      <image src="/assets/image/logo_r.jpg" class="logo"></image>
+    <view class="content" bindtap='routeToDetail'>
+      <image src="/assets/image/logo_r.png" class="logo"></image>
       <image class="goodSrc" src="{{item.goodSrc}}"></image>
       <view class="introduce">
         <view class="intrContent">

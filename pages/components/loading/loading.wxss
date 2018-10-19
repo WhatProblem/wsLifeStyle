@@ -5,15 +5,23 @@
   height: 100%;
   position: relative;
   background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .loading .loads {
-  width: 128rpx;
-  height: 128rpx;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: 45%;
+  width: 150rpx;
+  height: 150rpx;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loads .loadIcon {
+  width: 80rpx;
+  height: 80rpx;
   animation: loading 1s linear infinite;
 }
 
@@ -25,9 +33,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.loads .loadIcon {
-  width: 100%;
-  height: 100%;
 }

@@ -1,0 +1,5 @@
+<!--pages/components/tipTitle/tipTitle.wxml-->
+<!-- <text>pages/components/tipTitle/tipTitle.wxml</text> -->
+<view class="tipTitle">
+  {{title}}
+</view>
