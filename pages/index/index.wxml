@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<!-- <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -10,4 +10,9 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+</view> -->
+
+<view class="container">
+  <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录hotwind商城</button>
+  <view wx:else>请升级微信版本</view>
 </view>

@@ -1,0 +1,5 @@
+<!--pages/trendList/trendList.wxml-->
+<!-- <text>pages/trendList/trendList.wxml</text> -->
+<view class="container">
+  <search class="searchModal"></search>
+</view>

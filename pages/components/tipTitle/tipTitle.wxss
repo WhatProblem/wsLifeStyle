@@ -12,22 +12,22 @@
   position: relative;
 }
 
-.tipTitle::before {
+  /* .tipTitle::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 0;
+  bottom: 0;
   width: 30%;
   height: 30rpx;
-  border-bottom: 1px dotted #c0c0c0;
+  border-top: 1px dotted #c0c0c0;
 }
 
 .tipTitle::after {
   content: "";
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
   width: 30%;
   height: 30rpx;
-  border-bottom: 1px dotted #c0c0c0;
-}
+  border-top: 1px dotted #c0c0c0;
+}   */

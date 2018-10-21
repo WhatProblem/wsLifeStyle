@@ -25,6 +25,13 @@ Component({
   * 自定义方法
   */
   methods: {
-
+    /**
+   * 跳转到homeDetail
+   */
+    toHomeDetail() {
+      wx.navigateTo({
+        url: '/pages/homeDetail/homeDetail?title=456',
+      });
+    },
   }
 })

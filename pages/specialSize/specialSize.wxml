@@ -1,0 +1,5 @@
+<!--pages/specialSize/specialSize.wxml-->
+<!-- <text>pages/specialSize/specialSize.wxml</text> -->
+<view class="container">
+  <search class="searchModal"></search>
+</view>

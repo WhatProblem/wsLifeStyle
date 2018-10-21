@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "search": "/pages/components/search/search"
+  },
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "2018潮流榜单",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+}

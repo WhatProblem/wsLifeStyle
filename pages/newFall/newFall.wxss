@@ -1,0 +1,5 @@
+/* pages/newFall/newFall.wxss */
+
+.searchModal {
+  width: 100%;
+}
