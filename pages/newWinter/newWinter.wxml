@@ -1,5 +1,0 @@
-<!--pages/newWinter/newWinter.wxml-->
-<!-- <text>pages/newWinter/newWinter.wxml</text> -->
-<view class="container">
-  <search class="searchModal"></search>
-</view>

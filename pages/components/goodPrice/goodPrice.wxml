@@ -1,0 +1,13 @@
+<!--pages/components/goodPrice/goodPrice.wxml-->
+<!-- <text>pages/components/goodPrice/goodPrice.wxml</text> -->
+<view class="goodPrice">
+  <view class="price">
+    <view class="intro">亮丝女士T恤F01W8254</view>
+    <view class="curPrice">129.00</view>
+  </view>
+  <view class="size">
+    <view class="goodColor">颜色:01黑色, 12金色, 14粉红</view>
+    <view class="goodSize">尺码:S,M,L,XL</view>
+    <view class="saled">已售:101</view>
+  </view>
+</view>

@@ -1,0 +1,58 @@
+/* pages/components/listTop/listTop.wxss */
+
+.listTop {
+  width: 100%;
+}
+
+.listPoster {
+  width: 100%;
+  background: #fff;
+}
+
+.fixedPadding {
+  padding-bottom: 80rpx;
+}
+
+.listSortPic {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+}
+
+.sortImg {
+  width: 100%;
+  height: 110rpx;
+}
+
+.sortPic {
+  width: 25%;
+  padding: 10rpx;
+}
+
+.poster {
+  width: 100%;
+  height: 600rpx;
+}
+
+.listSort {
+  width: 100%;
+  height: 80rpx;
+  background: #fff;
+  line-height: 80rpx;
+  color: #060606;
+  font-size: 32rpx;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fixedTop {
+  position: fixed;
+  top: 100rpx;
+  z-index: 10000;
+}
+
+.selected {
+  color: #08af8e;
+}

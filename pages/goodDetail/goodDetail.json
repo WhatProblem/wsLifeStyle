@@ -1,10 +1,12 @@
 {
   "usingComponents": {
-    "search": "/pages/components/search/search"
+    "search": "/pages/components/search/search",
+    "goodPrice": "/pages/components/goodPrice/goodPrice",
+    "detailNav": "/pages/components/detailNav/detailNav"
   },
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "特殊尺码",
+  "navigationBarTitleText": "商品详情",
   "backgroundColor": "#eeeeee",
   "backgroundTextStyle": "light",
   "enablePullDownRefresh": false

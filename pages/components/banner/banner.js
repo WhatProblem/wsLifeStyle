@@ -26,11 +26,11 @@ Component({
   */
   methods: {
     /**
-   * 跳转到homeDetail
-   */
+    * 跳转到homeDetail
+    */
     toHomeDetail() {
       wx.navigateTo({
-        url: '/pages/homeDetail/homeDetail?title=456',
+        url: '/pages/goodDetail/goodDetail?title=456',
       });
     },
   }

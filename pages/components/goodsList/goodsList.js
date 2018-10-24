@@ -12,7 +12,7 @@ Component({
   methods: {
     routeToDetail() {
       wx.navigateTo({
-        url: '/pages/homeDetail/homeDetail?title=123',
+        url: '/pages/goodDetail/goodDetail?title=123',
       })
     }
   }

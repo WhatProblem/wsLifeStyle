@@ -1,19 +1,24 @@
-// pages/homeDetail/homeDetail.js
+// pages/goodDetail/goodDetail.js
 Page({
 
   /**
   * 页面的初始数据
   */
   data: {
-
+    imgUrls: [
+      '/assets/image/detail_1.png',
+      '/assets/image/detail_2.png'
+    ],
+    indicatorDots: true,
+    interval: 5000,
+    duration: 500
   },
 
   /**
   * 生命周期函数--监听页面加载
   */
   onLoad: function (options) {
-    let queryParams = options.title;
-    console.log(queryParams);
+
   },
 
   /**

@@ -9,26 +9,25 @@ Component({
     navItems: [{
       src: '/assets/image/new.png',
       title: '秋季新品',
-      url: '/pages/newFall/newFall?title=123456'
+      url: '/pages/list/list?title=newFall'
     },
     {
       src: '/assets/image/boot.png',
       title: '初冬鞋靴',
-      url: '/pages/newWinter/newWinter'
+      url: '/pages/list/list?title=newWinter'
     },
     {
       src: '/assets/image/shop_bag.png',
       title: '潮流榜单',
-      url: '/pages/trendList/trendList'
+      url: '/pages/list/list?title=trendList'
     },
     {
       src: '/assets/image/high_heel.png',
       title: '大&小码',
-      url: '/pages/specialSize/specialSize'
+      url: '/pages/list/list?title=specialSize'
     }
     ]
   },
   methods: {
-    
   }
 })

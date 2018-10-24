@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "search": "/pages/components/search/search",
+    "listTop": "/pages/components/listTop/listTop",
+    "goodsList": "/pages/components/goodsList/goodsList",
+    "loading": "/pages/components/loading/loading"
+  },
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "list详情",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

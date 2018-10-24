@@ -1,0 +1,44 @@
+/* pages/components/detailNav/detailNav.wxss */
+
+.detailNav {
+  width: 100%;
+  height: 120rpx;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navHome {
+  width: 17%;
+  height: 100%;
+  border-right: 1px solid #d0d0d0;
+}
+
+.navSort {
+  width: 17%;
+  height: 100%;
+}
+
+.addCart {
+  width: 33%;
+  height: 100%;
+  background: #39ba9e;
+  text-align: center;
+  line-height: 120rpx;
+  font-size: 32rpx;
+  color: #eee;
+}
+
+.buy {
+  width: 33%;
+  height: 100%;
+  background: #027c63;
+  text-align: center;
+  line-height: 120rpx;
+  font-size: 32rpx;
+  color: #eee;
+}

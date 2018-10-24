@@ -5,11 +5,8 @@
     "pages/sort/sort",
     "pages/cart/cart",
     "pages/member/member",
-    "pages/homeDetail/homeDetail",
-    "pages/newFall/newFall",
-    "pages/newWinter/newWinter",
-    "pages/trendList/trendList",
-    "pages/specialSize/specialSize"
+    "pages/list/list",
+    "pages/goodDetail/goodDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

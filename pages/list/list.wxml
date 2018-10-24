@@ -1,0 +1,11 @@
+<!--pages/list/list.wxml-->
+<!-- <text>pages/list/list.wxml</text> -->
+<view class="container">
+  <search></search>
+  <scroll-view style="width: 100%;height:{{scrollHeight}}px" scroll-y bindscrolltolower="loadMore" bindscroll="scrollTop">
+    <listTop id="listTop" class="listTop" listQueryParam="{{listNav}}" imgUrl="{{imgUrl}}" sortList="{{sortList}}" bindselectSort="changeLists" fixTop="{{fixedTop}}">
+    </listTop>
+    <goodsList class="goodList" goodList="{{goodList}}"></goodsList>
+  </scroll-view>
+  <loading class="loading" wx:if="{{showLoading}}"></loading>
+</view>

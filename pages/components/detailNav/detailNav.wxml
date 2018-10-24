@@ -1,0 +1,10 @@
+<!--pages/components/detailNav/detailNav.wxml-->
+<!-- <text>pages/components/detailNav/detailNav.wxml</text> -->
+<view class="detailNav">
+  <view class="content">
+    <view class="navHome">首页</view>
+    <view class="navSort">分类</view>
+    <view class="addCart">加入购物车</view>
+    <view class="buy">立即购买</view>
+  </view>
+</view>

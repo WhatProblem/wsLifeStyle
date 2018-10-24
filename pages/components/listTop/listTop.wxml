@@ -1,0 +1,29 @@
+<!--pages/components/listTop/listTop.wxml-->
+<!-- <text>pages/components/listTop/listTop.wxml</text> -->
+<view class="listTop">
+  <view class="listPoster {{fixTop ? 'fixedPadding' : ''}}">
+    <image src="{{imgUrl}}" class="poster"></image>
+  </view>
+  <view class="listSortPic" wx:if="{{listQueryParam === 'newWinter'}}">
+    <view class="sortPic" wx:for="{{sortPic}}" wx:key="{{index}}">
+      <image class="sortImg" src="{{item.picSrc}}"></image>
+    </view>
+  </view>
+  <view class="listSortPic" wx:if="{{listQueryParam === 'trendList'}}">
+    <view class="sortPic" wx:for="{{sortTrendListPic}}" wx:key="{{index}}">
+      <image class="sortImg" src="{{item.picSrc}}"></image>
+    </view>
+  </view>
+  <view wx:if="{{listQueryParam === 'newFall'}}" class="listSort {{fixTop ? 'fixedTop' : ''}}" id="affix">
+    <view wx:for="{{sortList}}" data-id="{{index}}" class="sortTitle {{ currentIndex == index ? 'selected' : ''}}" bindtap="changeList" wx:key="{{index}}">{{item.title}}</view>
+  </view>
+  <view wx:if="{{listQueryParam === 'newWinter'}}" class="listSort {{fixTop ? 'fixedTop' : ''}}" id="affix">
+    <view wx:for="{{sortWinterList}}" data-id="{{index}}" class="sortTitle {{ currentIndex == index ? 'selected' : ''}}" bindtap="changeList" wx:key="{{index}}">{{item.title}}</view>
+  </view>
+  <view wx:if="{{listQueryParam === 'trendList'}}" class="listSort {{fixTop ? 'fixedTop' : ''}}" id="affix">
+    <view wx:for="{{sortTrendList}}" data-id="{{index}}" class="sortTitle {{ currentIndex == index ? 'selected' : ''}}" bindtap="changeList" wx:key="{{index}}">{{item.title}}</view>
+  </view>
+  <view wx:if="{{listQueryParam === 'specialSize'}}" class="listSort {{fixTop ? 'fixedTop' : ''}}" id="affix">
+    <view wx:for="{{sortSizeList}}" data-id="{{index}}" class="sortTitle {{ currentIndex == index ? 'selected' : ''}}" bindtap="changeList" wx:key="{{index}}">{{item.title}}</view>
+  </view>
+</view>

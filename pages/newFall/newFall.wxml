@@ -1,5 +1,0 @@
-<!--pages/newFall/newFall.wxml-->
-<!-- <text>pages/newFall/newFall.wxml</text> -->
-<view class="container">
-  <search class="searchModal"></search>
-</view>
