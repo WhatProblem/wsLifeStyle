@@ -3,6 +3,7 @@
 .detailNav {
   width: 100%;
   height: 120rpx;
+  background: #fff;
 }
 
 .content {
@@ -41,4 +42,27 @@
   line-height: 120rpx;
   font-size: 32rpx;
   color: #eee;
+}
+
+.navIcon {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navText {
+  width: 100%;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+
+.navIcon image {
+  width: 60rpx;
+  height: 60rpx;
 }

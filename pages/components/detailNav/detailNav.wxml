@@ -2,8 +2,18 @@
 <!-- <text>pages/components/detailNav/detailNav.wxml</text> -->
 <view class="detailNav">
   <view class="content">
-    <view class="navHome">首页</view>
-    <view class="navSort">分类</view>
+    <view class="navHome">
+      <view class="navIcon">
+        <image src="/assets/image/detail_home.png"></image>
+      </view>
+      <view class="navText">首页</view>
+    </view>
+    <view class="navSort">
+      <view class="navIcon">
+        <image src="/assets/image/detail_sort.png"></image>
+      </view>
+      <view class="navText">分类</view>
+    </view>
     <view class="addCart">加入购物车</view>
     <view class="buy">立即购买</view>
   </view>

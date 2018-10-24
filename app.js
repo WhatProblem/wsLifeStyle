@@ -35,6 +35,20 @@ App({
   //     }
   //   })
   // },
+  onLaunch() {
+    wx.getUserInfo({
+      success(res) {
+        console.log('已经授权');
+        wx.reLaunch({
+          url: '/pages/home/home',
+        });
+      },
+      fail(err) {
+        console.log(err);
+      }
+    });
+  },
+
   globalData: {
     userInfo: null,
     session_key:'',
