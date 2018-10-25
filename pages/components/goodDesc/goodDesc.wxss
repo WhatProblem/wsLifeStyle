@@ -1,0 +1,17 @@
+/* pages/components/goodDesc/goodDesc.wxss */
+
+.goodDesc {
+  width: 100%;
+  background: #f0f0f0;
+}
+
+.descPic {
+  width: 100%;
+  margin-bottom: 20rpx;
+  background: #fff;
+}
+
+.descPic image {
+  width: 100%;
+  /* height: 100%; */
+}

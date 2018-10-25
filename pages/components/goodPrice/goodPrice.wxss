@@ -18,7 +18,7 @@
   width: 100%;
   height: 50rpx;
   line-height: 50rpx;
-  font-size: 36rpx;
+  font-size: 32rpx;
   color: #000;
 }
 
@@ -40,5 +40,5 @@
   height: 50rpx;
   line-height: 50rpx;
   color: #666;
-  font-size: 32rpx;
+  font-size: 28rpx;
 }

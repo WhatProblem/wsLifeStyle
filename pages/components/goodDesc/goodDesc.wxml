@@ -1,0 +1,7 @@
+<!--pages/components/goodDesc/goodDesc.wxml-->
+<!-- <text>pages/components/goodDesc/goodDesc.wxml</text> -->
+<view class="goodDesc">
+  <view class="descPic" wx:for="{{imgUrl}}" wx:key="{{index}}">
+    <image mode="widthFix" src="{{item.src}}"></image>
+  </view>
+</view>

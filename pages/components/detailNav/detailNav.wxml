@@ -2,17 +2,21 @@
 <!-- <text>pages/components/detailNav/detailNav.wxml</text> -->
 <view class="detailNav">
   <view class="content">
-    <view class="navHome">
-      <view class="navIcon">
-        <image src="/assets/image/detail_home.png"></image>
-      </view>
-      <view class="navText">首页</view>
+    <view class="navHome" bindtap="navHome">
+      <navigator url="/pages/home/home" open-type="switchTab">
+        <view class="navIcon">
+          <image src="/assets/image/detail_home.png"></image>
+        </view>
+        <view class="navText">首页</view>
+      </navigator>
     </view>
     <view class="navSort">
-      <view class="navIcon">
-        <image src="/assets/image/detail_sort.png"></image>
-      </view>
-      <view class="navText">分类</view>
+      <navigator url="/pages/sort/sort" open-type="switchTab">
+        <view class="navIcon">
+          <image src="/assets/image/detail_sort.png"></image>
+        </view>
+        <view class="navText">分类</view>
+      </navigator>
     </view>
     <view class="addCart">加入购物车</view>
     <view class="buy">立即购买</view>

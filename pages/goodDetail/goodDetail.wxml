@@ -12,6 +12,7 @@
     </swiper>
 
     <goodPrice class="goodPrice"></goodPrice>
+    <goodDesc class="goodDesc"></goodDesc>
   </view>
   <detailNav class="detailNav"></detailNav>
 </view>

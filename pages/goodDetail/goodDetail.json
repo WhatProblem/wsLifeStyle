@@ -2,7 +2,8 @@
   "usingComponents": {
     "search": "/pages/components/search/search",
     "goodPrice": "/pages/components/goodPrice/goodPrice",
-    "detailNav": "/pages/components/detailNav/detailNav"
+    "detailNav": "/pages/components/detailNav/detailNav",
+    "goodDesc": "/pages/components/goodDesc/goodDesc"
   },
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",
