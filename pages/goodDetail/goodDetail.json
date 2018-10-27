@@ -3,7 +3,8 @@
     "search": "/pages/components/search/search",
     "goodPrice": "/pages/components/goodPrice/goodPrice",
     "detailNav": "/pages/components/detailNav/detailNav",
-    "goodDesc": "/pages/components/goodDesc/goodDesc"
+    "goodDesc": "/pages/components/goodDesc/goodDesc",
+    "buyModal": "/pages/components/buyModal/buyModal"
   },
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",

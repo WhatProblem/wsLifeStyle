@@ -11,5 +11,8 @@ Component({
   },
 
   methods: {
+    addCart() {
+      this.triggerEvent("addCart");
+    }
   }
 })

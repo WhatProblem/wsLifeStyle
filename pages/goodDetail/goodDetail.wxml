@@ -14,5 +14,6 @@
     <goodPrice class="goodPrice"></goodPrice>
     <goodDesc class="goodDesc"></goodDesc>
   </view>
-  <detailNav class="detailNav"></detailNav>
+  <detailNav class="detailNav" bindaddCart="openBuyModel"></detailNav>
+  <buyModal class="buyModal" wx:if="{{showBuyModal}}" bindcloseBuyModel="closeBuyModel"></buyModal>
 </view>

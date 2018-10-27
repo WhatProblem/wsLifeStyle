@@ -1,0 +1,47 @@
+<!--pages/components/buyModal/buyModal.wxml-->
+<!-- <text>pages/components/buyModal/buyModal.wxml</text> -->
+<view class="Bmodel">
+  <view class="closeCover" bindtap="colseModal"></view>
+  <view class="buyModal">
+    <view class="showIntro">
+      <view class="poster">
+        <image mode='widthFix' src="{{imgUrl[0]['imgSrc']}}"></image>
+      </view>
+      <view class="detailInfo">
+        <view class="price">￥169</view>
+        <view class="stock">库存：1719</view>
+        <view class="standard">规格：请选择规格</view>
+      </view>
+    </view>
+    <view class="chooseOption">
+      <view class="chooseColor">
+        <view class="colorTitle">颜色</view>
+        <view class="colorContent">
+          <button class="colorOne">01黑色</button>
+          <button class="colorTwo">02红色</button>
+        </view>
+      </view>
+      <view class="chooseSize">
+        <view class="sizeTitle">尺码</view>
+        <view class="sizeContent">
+          <button class="sizeBtn">36</button>
+          <button class="sizeBtn">37</button>
+          <button class="sizeBtn">38</button>
+          <button class="sizeBtn">39</button>
+        </view>
+      </view>
+      <view class="chooseNum">
+        <view class="numTitle">数量</view>
+        <view class="numContent">
+          <button class="numOne">-</button>
+          <input class="numInput" type="number" placeholder="0" />
+          <button class="numTwo">+</button>
+        </view>
+      </view>
+    </view>
+    <view class="btn">
+      <button class="sureBtn" bindtap="colseSureModal">确定</button>
+    </view>
+    <view class="closeModal" bindtap="colseModal">X</view>
+  </view>
+</view>

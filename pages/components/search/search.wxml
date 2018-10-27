@@ -2,7 +2,7 @@
 <!-- <text>pages/components/search/search.wxml</text> -->
 <view class="section">
   <view class="logoSec">
-    <image class="logoImg" src="/assets/image/logo.png"></image>
+    <image mode='widthFix' class="logoImg" src="/assets/image/logo.png"></image>
   </view>
   <view class="inputSec">
     <!-- <text class="searchIcon iconfont icon-sousuo" style="font-size: 40px; color: red;"></text> -->

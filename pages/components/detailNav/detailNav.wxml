@@ -18,7 +18,7 @@
         <view class="navText">分类</view>
       </navigator>
     </view>
-    <view class="addCart">加入购物车</view>
-    <view class="buy">立即购买</view>
+    <view class="addCart" bindtap="addCart">加入购物车</view>
+    <view class="buy" bindtap="addCart">立即购买</view>
   </view>
 </view>

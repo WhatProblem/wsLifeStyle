@@ -1,0 +1,183 @@
+/* pages/components/buyModal/buyModal.wxss */
+.Bmodel {
+width: 100%;
+height: 100%;
+position: relative;
+}
+
+.closeCover {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 990;
+}
+
+.buyModal {
+z-index: 999;
+width: 100%;
+/* height: 800rpx; */
+background: #f0f0f0;
+position: fixed;
+bottom: 0;
+left: 0;
+display: flex;
+align-content: space-between;
+flex-wrap: wrap;
+animation: animateImg 0.25s ease 0s;
+animation-fill-mode: forwards;
+-webkit-animation: animateImg 0.25s ease 0s;
+-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animateImg {
+0% {
+height: 0;
+}
+
+100% {
+height: 800rpx;
+}
+}
+
+@-webkit-keyframes animateImg {
+0% {
+height: 0;
+}
+
+100% {
+height: 800rpx;
+}
+}
+
+.showIntro {
+width: 100%;
+height: 200rpx;
+background: #fff;
+display: flex;
+justify-content: flex-start;
+padding: 10rpx;
+box-sizing: border-box;
+}
+
+.poster {
+width: 180rpx;
+height: 100%;
+}
+
+.poster image {
+width: 100%;
+height: 100%;
+}
+
+.detailInfo {
+max-width: 440rpx;
+height: 100%;
+padding: 20rpx 0;
+overflow: hidden;
+}
+
+.price {
+width: 100%;
+height: 60rpx;
+line-height: 60rpx;
+color: rgb(240, 24, 24);
+font-size: 40rpx;
+}
+
+.stock, .standard {
+width: 100%;
+height: 40rpx;
+line-height: 40rpx;
+color: #606060;
+font-size: 24rpx;
+overflow: hidden;
+}
+
+.chooseOption {
+width: 100%;
+height: 500rpx;
+padding: 20rpx;
+box-sizing: border-box;
+}
+
+.chooseColor {
+width: 100%;
+height: 33%;
+}
+
+.colorTitle, .sizeTitle, .numTitle {
+width: 100%;
+height: 70rpx;
+border-bottom: 1px solid #e0e0e0;
+line-height: 55rpx;
+}
+
+.colorContent, .sizeContent, .numContent {
+padding: 0 20rpx;
+width: 100%;
+height: 80rpx;
+/* line-height: 70rpx; */
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.sizeBtn {
+height: 50rpx;
+line-height: 50rpx;
+margin-right: 20rpx;
+margin-left: 0;
+font-size: 28rpx;
+border-radius: 10rpx;
+}
+
+.colorOne, .colorTwo, .numOne, .numTwo {
+height: 70rpx;
+line-height: 70rpx;
+margin-right: 20rpx;
+margin-left: 0;
+font-size: 28rpx;
+border-radius: 10rpx;
+}
+
+.numOne {
+  margin-right: 0;
+}
+
+.numInput {
+width: 100rpx;
+height: 70rpx;
+line-height: 70rpx;
+border-radius: 10rpx;
+text-align: center;
+background: #fff;
+border: none;
+}
+
+.btn {
+  width: 100%;
+  height: 100rpx;
+}
+
+.btn .sureBtn {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 100rpx;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  background: #028340;
+  color: #f0f0f0;
+}
+
+.closeModal {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  font-size: 48rpx;
+  transform: scale(1.5, 1);
+  color: #909090;
+}

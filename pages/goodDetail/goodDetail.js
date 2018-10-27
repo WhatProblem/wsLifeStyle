@@ -11,7 +11,8 @@ Page({
     ],
     indicatorDots: true,
     interval: 5000,
-    duration: 500
+    duration: 500,
+    showBuyModal: false
   },
 
   /**
@@ -68,5 +69,23 @@ Page({
   */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+  * 打开加入购物车弹框
+  */
+  openBuyModel() {
+    this.setData({
+      showBuyModal: true
+    })
+  },
+
+  /**
+  * 关闭加入购物车弹框
+  */
+  closeBuyModel() {
+    this.setData({
+      showBuyModal: false
+    });
   }
 })
